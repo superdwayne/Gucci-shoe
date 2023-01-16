@@ -1,0 +1,23 @@
+<model-viewer src="shoe.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.1184362284158994m 0.4157455654838722m 0.1908662858270317m" data-normal="0.20538549870737552m 0.6273866754320931m 0.7511343131630908m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Test 1</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-1.5301206053082919m 0.2793719585691009m 0.14152233914612655m" data-normal="-0.006210690489279243m 0.7970161437964799m 0.6039260665441057m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Test 2</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.8031981703801817m 0.6473325000189545m 0.16327840643517427m" data-normal="-0.02257893779845094m 0.21420845559677748m 0.9765269730625659m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Test 3</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.9356063061209128m 0.1383117218599564m -0.27141555128261846m" data-normal="0.21429376143868992m -0.387841251786474m -0.896469378853042m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Test 4</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.18782701636068477m 0.14971495913128136m -0.4025158004342575m" data-normal="-0.1100162007773117m 0.8240982530684725m -0.5556604222508729m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Test 5
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
